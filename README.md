@@ -101,9 +101,9 @@ Coil_Optimization/
 ```
 
 The following three files are created during the training process and haven't been pushed to GitHub:
-saved_model.pt        # Trained model weights
-saved_data.npz        # Training data
-scaling_stats.npz     # Normalization parameters
+- saved_model.pt        # Trained model weights
+- saved_data.npz        # Training data
+- scaling_stats.npz     # Normalization parameters
 
 ## Requirements
 

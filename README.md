@@ -58,11 +58,11 @@ See `train.py` for full architecture details.
 
 ## Data Format
 
-Training data is stored in `saved_data.npz`:
+Training data is stored in a file called `saved_data.npz`:
 - `inputs`: Fourier coefficients, shape (N, 63)
 - `labels`: [arc length, MSC], shape (N, 2)
 
-Normalization statistics saved in `scaling_stats.npz` for consistent evaluation.
+Normalization statistics is saved in a file called `scaling_stats.npz` for consistent evaluation.
 
 ## Next Steps
 
@@ -97,11 +97,13 @@ Coil_Optimization/
 ├── train.py              # Model definition and training
 ├── evaluate.py           # Model evaluation and metrics
 ├── requirements.txt      # Python dependencies
+└── README.md
+```
+
+The following three files are created during the training process and haven't been pushed to GitHub. 
 ├── saved_model.pt        # Trained model weights
 ├── saved_data.npz        # Training data
 ├── scaling_stats.npz     # Normalization parameters
-└── README.md
-```
 
 ## Requirements
 
